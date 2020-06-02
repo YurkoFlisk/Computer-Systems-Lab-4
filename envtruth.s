@@ -8,10 +8,10 @@ newline:
 
 _start:
     // argc зберігається в rbx
-    movq (%rsp), %rbx             /* rbx = *rsp */
+    movq (%rsp), %rbx              /* rbx = *rsp */
     // після обрахунку адреси envp, з якої починаються змінні оточення, argc вже
     // не буде потрібен, тому можемо перевикористати rbx для її збереження
-    leaq 16(%rsp, %rbx, 8), %rbx  /* rbx = %rsp + 8 * (%rbx + 2) = %rsp + %rbx * 8 + 16 */
+    leaq 16(%rsp, %rbx, 8), %rbx   /* rbx = %rsp + 8 * (%rbx + 2) = %rsp + %rbx * 8 + 16 */
 
 loop:
     // Зберігатимемо p_start = *env_p в rsi

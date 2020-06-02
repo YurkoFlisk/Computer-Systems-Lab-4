@@ -16,7 +16,7 @@ USER=yurko
 DESKTOP_SESSION=ubuntu
 QT4_IM_MODULE=xim
 TEXTDOMAINDIR=/usr/share/locale/
-GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/bdf6069d_e689_438f_8712_b0263a9861db
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/eaec4bde_29c4_4ed0_9cca_1a910e8e7eba
 DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path
 PWD=/home/yurko/Programming/Assembler/CS 4
 HOME=/home/yurko
@@ -37,7 +37,7 @@ XMODIFIERS=@im=ibus
 IM_CONFIG_PHASE=2
 XDG_CURRENT_DESKTOP=ubuntu:GNOME
 GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
-GNOME_TERMINAL_SERVICE=:1.142
+GNOME_TERMINAL_SERVICE=:1.204
 XDG_SEAT=seat0
 SHLVL=1
 GDMSESSION=ubuntu
